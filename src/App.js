@@ -14,6 +14,7 @@ function App() {
       <ListGroup>
         {items.map((action, idx) => (
           <ListGroup.Item
+            href={action.link}
             action
             style={{
               display: "flex",
